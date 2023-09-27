@@ -1,0 +1,85 @@
+public class conta{
+
+  private string banco;
+  private string descricao;
+  
+  public conta(string banco, string descricao){
+    this.banco = banco;
+    this.descricao = descricao;
+^}}
+
+public class usuario{
+
+  private string nome;
+  private string email;
+  
+
+  public usuario(string nome, string email){
+    this.nome = nome;
+    this.email = email;
+    
+  }
+  
+}
+
+public class despesa{
+ private double valor;
+ private String categoria; 
+ private String data;
+
+  public despesa(double valor, string categoria, string data){
+    this.valor = valor;
+    this.categoria = categoria;
+    this.data = data;
+
+  }
+} 
+
+public class investimento{
+  private double valor;
+  private string data;
+  
+
+  public investimento(double valor, string data){
+    this.valor = valor;
+    this.data = tada;
+
+  } 
+}
+
+public class meta{
+  private string descricao;
+  private double valor;
+  private string data;
+
+  public meta(string descricao, double valor, string data){
+    this.descricao = descricao;
+    this.valor = valor;
+    this.data = data;
+    
+ }
+}
+
+public class orcamento{
+  private string descricao;
+  private double valor;
+  private string data;
+
+  public orcamento(string descricao, double valor, string data){
+    this.descricao = descricao;
+    this.valor = valor;
+    this.data = data;
+ }
+}
+
+public class receita{
+ private double valor;
+ private String categoria; 
+ private String data;
+
+  public receita(double valor, string categoria, string data){
+    this.valor = valor;
+    this.categoria = categoria;
+    this.data = data;
+ }
+}
